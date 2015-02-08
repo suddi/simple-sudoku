@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Within a LinearLayout pack 4 FrameLayouts to seperate the unique
+     Sudoku tiles.
+     
+     Within these FrameLayouts, add four ImageViews of the a tile number 
+-->
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/std_margin"
+    android:layout_gravity="bottom"
+    android:gravity="center|bottom"
+    android:layout_weight="0.15"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:id="@+id/tile1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/grid_separation">
+        
+	    <ImageView
+	        android:id="@+id/tile1_1"
+	        android:contentDescription="@string/tile_desc"
+	        android:layout_width="@dimen/tile_size"
+	        android:layout_height="@dimen/tile_size"
+	        android:src="@drawable/label_1"/>
+	    
+	    <ImageView
+            android:id="@+id/tile1_2"
+            android:contentDescription="@string/tile_desc"
+            android:layout_width="@dimen/tile_size"
+            android:layout_height="@dimen/tile_size"
+            android:src="@drawable/label_1"/>
+	    
+	    <ImageView
+            android:id="@+id/tile1_3"
+            android:contentDescription="@string/tile_desc"
+            android:layout_width="@dimen/tile_size"
+            android:layout_height="@dimen/tile_size"
+            android:src="@drawable/label_1"/>
+	    
+	    <ImageView
+            android:id="@+id/tile1_4"
+            android:contentDescription="@string/tile_desc"
+            android:layout_width="@dimen/tile_size"
+            android:layout_height="@dimen/tile_size"
+            android:src="@drawable/label_1"/>
+    </FrameLayout>
+    
+    <FrameLayout
+        android:id="@+id/tile2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/grid_separation">
+	    
+	    <ImageView
+	        android:id="@+id/tile2_1"
+	        android:contentDescription="@string/tile_desc"
+	        android:layout_width="@dimen/tile_size"
+	        android:layout_height="@dimen/tile_size"
+	        android:src="@drawable/label_2"/>
+	    
+	    <ImageView
+            android:id="@+id/tile2_2"
+            android:contentDescription="@string/tile_desc"
+            android:layout_width="@dimen/tile_size"
+            android:layout_height="@dimen/tile_size"
+            android:src="@drawable/label_2"/>
+	    
+	    <ImageView
+            android:id="@+id/tile2_3"
+            android:contentDescription="@string/tile_desc"
+            android:layout_width="@dimen/tile_size"
+            android:layout_height="@dimen/tile_size"
+            android:src="@drawable/label_2"/>
+	    
+	    <ImageView
+            android:id="@+id/tile2_4"
+            android:contentDescription="@string/tile_desc"
+            android:layout_width="@dimen/tile_size"
+            android:layout_height="@dimen/tile_size"
+            android:src="@drawable/label_2"/>
+    </FrameLayout>
+    
+    <FrameLayout
+        android:id="@+id/tile3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/grid_separation">
+	    
+	    <ImageView
+	        android:id="@+id/tile3_1"
+	        android:contentDescription="@string/tile_desc"
+	        android:layout_width="@dimen/tile_size"
+	        android:layout_height="@dimen/tile_size"
+	        android:src="@drawable/label_3"/>
+	    
+	    <ImageView
+            android:id="@+id/tile3_2"
+            android:contentDescription="@string/tile_desc"
+            android:layout_width="@dimen/tile_size"
+            android:layout_height="@dimen/tile_size"
+            android:src="@drawable/label_3"/>
+	    
+	    <ImageView
+            android:id="@+id/tile3_3"
+            android:contentDescription="@string/tile_desc"
+            android:layout_width="@dimen/tile_size"
+            android:layout_height="@dimen/tile_size"
+            android:src="@drawable/label_3"/>
+	    
+	    <ImageView
+            android:id="@+id/tile3_4"
+            android:contentDescription="@string/tile_desc"
+            android:layout_width="@dimen/tile_size"
+            android:layout_height="@dimen/tile_size"
+            android:src="@drawable/label_3"/>
+    </FrameLayout>
+    
+    <FrameLayout
+        android:id="@+id/tile4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/grid_separation">
+	    
+	    <ImageView
+	        android:id="@+id/tile4_1"
+	        android:contentDescription="@string/tile_desc"
+	        android:layout_width="@dimen/tile_size"
+	        android:layout_height="@dimen/tile_size"
+	        android:src="@drawable/label_4"/>
+	    
+	    <ImageView
+            android:id="@+id/tile4_2"
+            android:contentDescription="@string/tile_desc"
+            android:layout_width="@dimen/tile_size"
+            android:layout_height="@dimen/tile_size"
+            android:src="@drawable/label_4"/>
+	    
+	    <ImageView
+            android:id="@+id/tile4_3"
+            android:contentDescription="@string/tile_desc"
+            android:layout_width="@dimen/tile_size"
+            android:layout_height="@dimen/tile_size"
+            android:src="@drawable/label_4"/>
+	    
+	    <ImageView
+            android:id="@+id/tile4_4"
+            android:contentDescription="@string/tile_desc"
+            android:layout_width="@dimen/tile_size"
+            android:layout_height="@dimen/tile_size"
+            android:src="@drawable/label_4"/>
+    </FrameLayout>
+</LinearLayout>

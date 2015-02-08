@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@layout/body_gradient">
+
+    <!-- Include the header which generates the Sudoku label -->
+    <include layout="@layout/header"/>
+    
+    <!-- Generate the Sudoku matrix and submit button -->
+    <include layout="@layout/grid"/>
+    
+    <!-- Generate the tiles for drag and drop -->
+    <include layout="@layout/tiles"/>
+</LinearLayout>

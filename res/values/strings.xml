@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sudoku</string>
+    <string name="title">Sudoku</string>
+    <string name="action_settings">Settings</string>
+    <string name="level_1">Level 1</string>
+    <string name="level_2">Level 2</string>
+    <string name="submit">Submit</string>
+    
+    <string name="student_name">Sudharshan Ravindran</string>
+    <string name="student_id">2013952240</string>
+  
+    <string name="tile_desc">Sudoku Tile</string>
+</resources>

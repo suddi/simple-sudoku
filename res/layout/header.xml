@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/btn_home"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/std_margin"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <!-- Use pre-rendered images to create the Sudoku label -->
+	<ImageView
+	    android:src="@drawable/label_s"
+	    android:contentDescription="@string/title"
+	    android:layout_width="@dimen/title_size"
+	    android:layout_height="@dimen/title_size"/>
+	<ImageView 
+	    android:src="@drawable/label_u"
+	    android:contentDescription="@string/title"
+	    android:layout_width="@dimen/title_size"
+	    android:layout_height="@dimen/title_size"/>
+	<ImageView 
+	    android:src="@drawable/label_d"
+	    android:contentDescription="@string/title"
+	    android:layout_width="@dimen/title_size"
+	    android:layout_height="@dimen/title_size"/>
+	<ImageView 
+	    android:src="@drawable/label_o"
+	    android:contentDescription="@string/title"
+	    android:layout_width="@dimen/title_size"
+	    android:layout_height="@dimen/title_size"/>
+	<ImageView 
+	    android:src="@drawable/label_k"
+	    android:contentDescription="@string/title"
+	    android:layout_width="@dimen/title_size"
+	    android:layout_height="@dimen/title_size"/>
+	<ImageView 
+	    android:src="@drawable/label_u"
+	    android:contentDescription="@string/title"
+	    android:layout_width="@dimen/title_size"
+	    android:layout_height="@dimen/title_size"/>
+</LinearLayout>

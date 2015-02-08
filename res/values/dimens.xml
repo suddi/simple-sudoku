@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_size">50dp</dimen>
+    <dimen name="std_margin">10dp</dimen>
+    
+    <dimen name="button_margin">20dp</dimen>
+    <dimen name="button_width">150dp</dimen>
+    
+    <dimen name="grid_size">65dp</dimen>
+    <dimen name="tile_size">65dp</dimen>
+    <dimen name="std_gap">1dp</dimen>
+    <dimen name="grid_separation">6dp</dimen>
+    
+    <dimen name="font_size">20sp</dimen>
+</resources>
