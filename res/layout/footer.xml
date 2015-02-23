@@ -14,13 +14,5 @@
         android:textColor="@color/black"
         android:textSize="@dimen/font_size"
         android:gravity="center_horizontal"
-        android:text="@string/student_name"/>
-    <TextView 
-        android:layout_width="fill_parent"  
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/std_margin" 
-        android:textColor="@color/black"
-        android:textSize="@dimen/font_size"
-        android:gravity="center_horizontal"
-        android:text="@string/student_id"/>
+        android:text="@string/name"/>
 </LinearLayout>
