@@ -18,6 +18,4 @@ The game includes two levels of gameplay:
 
 Players will have to drag and drop numbered tiles into the respective boxes to win. The standard rules of sudoku apply.
 
-![Cover Page](images/cover.png)
-
-![In Game](images/in_game.png)
+![Cover Page](images/cover.png) ![In Game](images/in_game.png)
