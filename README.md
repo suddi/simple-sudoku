@@ -1,6 +1,7 @@
-![Logo](images/logo.png)
-
 ## Simple Sudoku ##
+
+![Logo](images/logo.png)
+![Phone](images/sudoku.png)
 
 A simple 4x4 sudoku game for Android phones.
 
